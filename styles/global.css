@@ -152,6 +152,21 @@ html {
   margin-bottom: 1em;
 }
 
+.social-icons-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0rem;
+}
+
+.social-icons-header a {
+  margin: 0 16px;
+}
+
+.social-icons-header img {
+  width: 36px;
+  height: 36px;
+}
+
 
 /* Footer Styles */
 .footer {
@@ -162,17 +177,17 @@ html {
   padding: 2rem 0;
 }
 
-.social-icons {
+.social-icons-footer {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
 
-.social-icons a {
+.social-icons-footer a {
   margin: 0 16px;
 }
 
-.social-icons img {
+.social-icons-footer img {
   width: 36px;
   height: 36px;
 }
