@@ -12,8 +12,8 @@ export default function Home() {
       <div className="main-container">
         <Head>
           <title>Your Portfolio</title>
-          <meta name="description" content="Your Portfolio Description" />
-          <link rel="icon" href="/favicon.ico" />
+          <meta name="description" content="Corey Gallagher" />
+          <link rel="icon" href="/Corey3.png" />
         </Head>
 
         <main className="main-content">
