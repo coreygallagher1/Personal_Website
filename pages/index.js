@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <div className="main-container">
         <Head>
-          <title>Your Portfolio</title>
+          <title>Corey Gallagher</title>
           <meta name="description" content="Corey Gallagher" />
           <link rel="icon" href="/Corey3.png" />
         </Head>
