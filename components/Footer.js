@@ -21,7 +21,7 @@ const Footer = () => {
             <Image src={InstagramImage} alt="Instagram" />
           </a>
         </div>
-        <p>© 2023 Corey Gallagher</p>
+        <p style={{ color: 'white',textShadow: '3px 3px 12px black' }}>© 2023 Corey Gallagher</p>
       </footer>
     )
   }

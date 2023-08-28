@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import About from '../components/About'
 import Footer from '../components/Footer'
 import '../styles/global.css'
+import Experience from '@/components/Experience'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 
         <main className="main-content">
           <About />
+          <Experience />
         </main>
       </div>
       <Footer />
