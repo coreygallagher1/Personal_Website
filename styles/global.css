@@ -1,0 +1,184 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Playfair+Display:wght@700&display=swap');
+
+/* Global background */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/MontBlanc.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Helvetica, Arial, sans-serif';
+}
+
+/* Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+}
+
+
+/* Central column */
+.main-container {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 5% auto;
+  padding: 60px;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Section styling */
+.section {
+  padding: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Last section remove border */
+.section:last-child {
+  border-bottom: none;
+}
+
+/* Header Styling */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.5em;
+  border-radius: 0.3em;
+  color: #1a1a1a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+/* Paragraph Styling */
+p, li, a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4d4d4d;
+  margin-bottom: 1rem;
+}
+
+/* About section specific styling */
+/* About Info */
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  flex: 1;
+  background: #fff;
+  padding: 1em;
+  border-radius: 0.3em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+}
+
+/* Animations and transitions */
+@keyframes slideRight {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Header Styles */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: #ffffff !important; 
+  
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  padding-bottom: 200px;
+  
+}
+
+.header-content h1 {
+  background: transparent;
+  font-size: 5rem;
+  font-weight: 900;
+  margin: -0.25em 0;
+}
+
+.header-content p {
+
+  font-size: 1.5rem;
+  margin: 0.1em 0;
+}
+
+.header-content img {
+  border-radius: 50%;  /* Optional, for rounded image */
+  margin-bottom: 1em;
+}
+
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  margin: 0 16px;
+}
+
+.social-icons img {
+  width: 36px;
+  height: 36px;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 1rem;
+}
