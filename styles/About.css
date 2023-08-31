@@ -10,6 +10,8 @@
   /* Responsive padding */
   @media only screen and (max-width: 600px) {
     .about-section {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
       padding: 1rem;
     }
   }
