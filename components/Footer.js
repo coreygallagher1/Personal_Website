@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import dynamic from "next/dynamic";
 import '../styles/global.css'
+import '../styles/Footer.css'
 import InstagramImage from '../public/assets/instagram.png'
 import LinkedInImage from '../public/assets/linkedin.png'
 import GitHubImage from '../public/assets/github.png'

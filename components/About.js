@@ -1,9 +1,12 @@
 // About.js
 
+import '../styles/global.css'
+import '../styles/About.css'
+
 const About = () => {
   return (
-    <section id="about" className="section">
-      <div className="main-container">
+    <section id="about" className="about-section">
+      <div className="main-container" >
         <h1>About Me</h1>
         <div className="about-info">
           <div className="about-text">
@@ -20,7 +23,7 @@ const About = () => {
              I love to build things from scratch and see them come to life and try to scale them. My passion is creating applications that will profoundly impact people's lives in a positive way.
             </p>
             <p>
-              When I'm not coding, I'm you can find me working out, golfing, traveling, or planning my next big project. Other passions I have are personal finance, investing, and real estate.
+              When I'm not coding, you can find me working out, golfing, traveling, or planning my next big project. Other passions I have are personal finance, investing, and real estate.
             </p>
           </div>
           

@@ -1,0 +1,51 @@
+/* Global Styles */
+
+
+/* About Section */
+.about-section {
+    background-color: #f9f9f9;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* About Info */
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.about-text {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+
+}
+
+/* Text Formatting */
+.intro {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.education,
+.passion,
+.hobbies {
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+}
