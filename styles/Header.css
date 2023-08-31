@@ -59,15 +59,21 @@
     .header-content img {
       width: 200px;
       height: 200px;
+      margin-top: 25px;
     }
   
     .social-icons-header a {
-      margin: 0.5rem 8px 0.25rem; /* Top, left/right, bottom */
+      margin: -3rem 8px 0.25rem; /* Top, left/right, bottom */
     }
   
     .header-content p {
       font-size: 1.2rem; /* Adjusted font size for mobile */
-      margin: 0.1rem 0 0.5rem; /* Top, left/right, bottom */
+      margin: 0.1rem 0 0rem; /* Top, left/right, bottom */
     }
+
+    .social-icons-header img {
+        width: 50px;
+        height: 50px;
+      }
   }
   
