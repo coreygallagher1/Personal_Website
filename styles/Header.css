@@ -31,7 +31,7 @@
   }
   
   .header-content img {
-    border-radius: 50%;  /* Optional, for rounded image */
+    border-radius: 50%;
     margin-bottom: 1em;
   }
   
@@ -55,14 +55,12 @@
     .header-content h1 {
       font-size: 3rem;  /* Reduced font size for mobile */
     }
-  
-    .header-content p {
-      font-size: 1.2rem;  /* Reduced font size for mobile */
-    }
-  
-    .social-icons-header img {
-      width: 24px;  /* Reduced icon size for mobile */
-      height: 24px;
-    }
+
+    .header-content img {
+        width: 80px; /* Adjust width for mobile */
+        height: 80px; /* Adjust height for mobile */
+      }
+
+   
   }
   
