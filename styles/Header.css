@@ -6,8 +6,7 @@
     justify-content: center;
     height: 100vh;
     text-align: center;
-    color: #ffffff !important; 
-    
+    color: #ffffff !important;
   }
   
   .header-content {
@@ -16,7 +15,6 @@
     align-items: center;
     border-radius: 12px;
     padding-bottom: 100px;
-    
   }
   
   .header-content h1 {
@@ -28,7 +26,6 @@
   }
   
   .header-content p {
-  
     font-size: 1.5rem;
     margin: 0.1em 0;
   }
@@ -51,5 +48,21 @@
   .social-icons-header img {
     width: 36px;
     height: 36px;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 600px) {
+    .header-content h1 {
+      font-size: 3rem;  /* Reduced font size for mobile */
+    }
+  
+    .header-content p {
+      font-size: 1.2rem;  /* Reduced font size for mobile */
+    }
+  
+    .social-icons-header img {
+      width: 24px;  /* Reduced icon size for mobile */
+      height: 24px;
+    }
   }
   
