@@ -53,7 +53,7 @@
   /* Responsive Design */
   @media only screen and (max-width: 600px) {
     .header-content h1 {
-      font-size: 5rem;  /* Reduced font size for mobile */
+      font-size: 3rem;  /* Reduced font size for mobile */
     }
 
     .header-content img {
@@ -65,9 +65,5 @@
     width: 50px;
     height: 50px;
     }
-    .social-icons-header a {
-        margin: 0 6px;
-      }
-   
   }
   
