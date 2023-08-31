@@ -38,7 +38,7 @@ body {
   body {
     background-image: url('/assets/MontBlancMobile.jpg');
     background-attachment: scroll;
-    background-size: cover;
+    background-size: contain;
   }
 }
 

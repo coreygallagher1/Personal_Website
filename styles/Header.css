@@ -50,20 +50,24 @@
     height: 36px;
   }
   
-  /* Responsive Design */
-  @media only screen and (max-width: 600px) {
+ /* Responsive Design */
+@media only screen and (max-width: 600px) {
     .header-content h1 {
-      font-size: 3rem;  /* Reduced font size for mobile */
+      font-size: 3rem;
     }
-
+  
     .header-content img {
-        width: 200px; /* Adjust width for mobile */
-        height: 200px; /* Adjust height for mobile */
-      }
-
-    .social-icons-header img {
-    width: 50px;
-    height: 50px;
+      width: 200px;
+      height: 200px;
+    }
+  
+    .social-icons-header a {
+      margin: 0.5rem 8px 0.25rem; /* Top, left/right, bottom */
+    }
+  
+    .header-content p {
+      font-size: 1.2rem; /* Adjusted font size for mobile */
+      margin: 0.1rem 0 0.5rem; /* Top, left/right, bottom */
     }
   }
   
