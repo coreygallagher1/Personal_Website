@@ -13,7 +13,7 @@ export default function Home() {
         <Head>
           <title>Corey Gallagher</title>
           <meta name="description" content="Corey Gallagher" />
-          <link rel="icon" href="/Corey3.png" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className="main-content">
